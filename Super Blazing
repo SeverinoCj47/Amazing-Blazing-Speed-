@@ -1,0 +1,38 @@
+//profile-title: base64:8J+UpSBXQVJQIPCflKU=
+//profile-update-interval: 24
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/hiddify
+//profile-web-page-url: https://hiddify.com
+
+// Domain-specific routing for Facebook, TikTok, Zero-Rated Websites, and Speed Enhancements
+// Includes advanced methods for achieving ultra-fast internet speeds
+
+// Facebook Domains
+domain-rules:
+  - "*.facebook.com"
+  - "*.fbcdn.net"
+  - "*.messenger.com"
+  - "m.facebook.com"  # Zero-rated Facebook
+
+// TikTok Domains
+  - "*.tiktok.com"
+  - "*.byteoversea.com"
+  - "*.tiktokv.com"
+  - "*.snssdk.com"
+
+// Zero-Rated Websites
+  - "smart.com.ph"
+  - "*.smart.com.ph"  # Covers subdomains of Smart Communications
+
+// Routes
+warp://p1@188.114.97.170:894?ifp=1000-10000&ifps=1000-5000&ifpd=1-3&ifpm=m4&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#stable_m4&&detour=warp://p2@188.114.97.170:894&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#warp in warp
+warp://p1@auto?ifpm=m4&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#LocalIP&&detour=warp://p2@auto&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#WarpInWarp✅
+#warp://p1@ip1?ifp=1000-10000&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#WarpInWarp✅&&detour=warp://p2@ip2?ifp=1000-10000&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#Warp 🇮🇷 IP
+
+#warp://auto?ifp=1000-10000&ifps=1000-5000&ifpd=1-3&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#Warp_10-20_40-100_10-20
+#warp://auto?ifp=1000-10000&ifps=1000-5000&ifpd=1-3&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#Warp_10-20_40-100_30-50
+#warp://auto?ifp=1000-10000&ifps=1000-5000&ifpd=1-3&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#Warp_10-20_40-100_300-500
+
+#warp://auto?ifp=1000-10000&ifps=1000-5000&ifpd=1-3&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#Warp_5-10_40-100_10-20
+#warp://auto?ifp=1000-10000&ifps=1000-5000&ifpd=1-3&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#Warp_5-10_40-100_30-50
+#warp://auto?ifp=1000-10000&ifps=1000-5000&ifpd=1-3&location-agnostic=true&retry=5&stability=true&data-source=facebook_tiktok_zero-rated&compression=advanced&ultra-speed=true#Warp_5-10_40-100_300-500
